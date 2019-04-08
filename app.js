@@ -19,7 +19,7 @@ const app = express();
 app.get('/', (req, res) => {
   res
     .status(200)
-    .send('Hello, world!')
+    .send('Check console to see response from backend.')
     .end();
 });
 
